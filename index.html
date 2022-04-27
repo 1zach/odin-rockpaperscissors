@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock, Scissors, Paper</title>
+    <link rel="stylesheet" href="style.css">
+     
+</head>
+<body>
+    <div class="header"> 
+        
+        <p>Rock, Scissors, Paper</p>
+        
+</div>
+        <div class="main">
+        <div class="picsText">
+                    <div class="pics">
+                <button id = "rockBtn"><img class="button" src="rock.png" alt="Rock"></button>
+                <div class="Text">Rock</div>
+                    </div>
+                    <div class="pics">
+                    
+                <button id = "scissorBtn"><img class = "button" src="scissors.png" alt="Scissors"></button>
+                <div class="Text">Scissors</div>
+                    </div>
+                    <div class="pics">
+                <button id = "paperBtn"><img class ="button" src="paper.png" alt="Paper"></button>
+                <div class="Text">Paper</div>
+                    </div>
+            </div>
+            <div class="howToPlay">Click on your choice and see if you can beat the computer!</div>
+            <div id ="picks">
+                <div class = "picksx">Player Picks  <ul id = "playerPicks"> </ul> </div>
+                <div class = "picksx">Computer Picks<ul id = "computerPicks"> </ul></div>
+            </div>
+            <div id = "gameResult">Result of Game</div>
+            <div id ="gameScore">Your Score: <span id = "playerScore">0</span> Computer Score: <span id = "computerScore">0</span> Ties: <span id = "ties">0</span></div>
+            <button id="gameOn">Press to Play</button>
+            <button id="finalResult" class = "displayHidden">This is where you win or lose</button>
+        </div>
+    </div>
+    <script src="newstyle.js"></script>
+</body>
+</html>

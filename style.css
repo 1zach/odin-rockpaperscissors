@@ -1,0 +1,95 @@
+body {
+    background-color: black;
+    color: white;
+    display: flex;    
+    flex-direction: column;
+    
+}
+
+.header {
+    display:flex;
+    font-size: 60px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    
+    
+}
+
+#gameResult {
+    width: 200px;
+}
+
+.picsText {
+    display: flex;
+    gap: 16px;
+    padding: 8px;
+    text-align: center;
+    font-size: 24px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.pics {
+    padding: 8px;
+}
+
+#picks {
+    display: flex;
+    flex-direction: row;
+}
+
+ul {
+    list-style: none;
+}
+
+.smpics {
+    height: 50px;
+    width: 50px;
+    
+}
+#rockBtn {
+    border: 8px solid rgb(250, 98, 230);
+
+}
+
+#scissorBtn {
+    border: 8px solid rgb(235, 250, 98)
+}
+
+#paperBtn {
+    border: 8px solid rgb(61, 182, 252)
+}
+.displayHidden {
+    display: none;
+}
+
+.picksx {
+    padding: 20px;
+}
+
+#finalResult {
+    position: absolute;
+    height: 25vh;
+    width: 25vw;
+    font-size: 40px;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+}
+
+#gameOn {
+    position: absolute;
+    height: 25vh;
+    width: 25vw;
+    font-size: 40px;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+}
